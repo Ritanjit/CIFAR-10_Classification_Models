@@ -107,9 +107,11 @@ jupyter notebook notebook.ipynb
 - **Name**: CIFAR-10
 - **Source**: Downloaded in Colab using _"torchvision.datasets.CIFAR10(root='./data', download=True)"_
 - **Size**:  It consists of 60,000 32x32 colour images in 10 classes, with 6,000 images per class. There are 50,000 training images and 10,000 test images.
-- **Format**: [Data format - CSV, JSON, Images, etc.]
+- **Format**: Images
+<!--
 - **License**: [Dataset license]
-  
+-->
+
 <!--
 ### Data Structure
 
