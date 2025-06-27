@@ -171,18 +171,16 @@ Input → [Preprocessing] → [Feature Extraction] → [Classification] → Outp
 
 <table>
 
-<!--
 <tr>
-  
-  #### MODEL PERFORMANCE COMPARISON
-  
+<td colspan="2" align="center">
+
+#### MODEL PERFORMANCE COMPARISON
+
+</td>
 </tr>
--->
 
 <tr>
 <td>
-
-#### MODEL PERFORMANCE COMPARISON
 
 | Model                | Accuracy (%) |
 | ---------------------|--------------|
