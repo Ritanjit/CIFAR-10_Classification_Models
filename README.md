@@ -173,7 +173,7 @@ Input → [Preprocessing] → [Feature Extraction] → [Classification] → Outp
 
 ## 📈 Results
 
-### MODEL PERFORMANCE COMPARISON
+#### MODEL PERFORMANCE COMPARISON
 
 | Model                | Accuracy (%) |
 | ---------------------|--------------|
@@ -225,21 +225,29 @@ for epoch in range(num_epochs):
     # Log metrics
     log_metrics(epoch, train_loss, val_loss)
 ```
+-->
 
-### Configuration
+## ⚙️ Configuration
 
-Modify the configuration section in the notebook:
+### How to Run the Code
 
-```python
-CONFIG = {
-    'model_name': 'your_model',
-    'batch_size': 32,
-    'learning_rate': 0.001,
-    'epochs': 100,
-    'data_path': '/path/to/data'
-}
-```
+1.  Open the Colab notebook file (`.ipynb`).
+2.  Ensure you have access to a GPU runtime for faster training (Runtime -> Change runtime type).
+3.  Run all cells in the notebook sequentially. The notebook will download the dataset, define the models, train them, and evaluate their performance.
 
+### Files
+
+*   `.ipynb`: The main Colab notebook containing all the code.
+*   `model_comparison.png`: A bar chart visualizing the performance comparison.
+
+## 🚀 Future Work
+
+*   Experiment with different hyperparameters for each model.
+*   Implement additional model architectures (e.g., DenseNet, VGG).
+*   Explore data augmentation techniques to further improve performance.
+*   Analyze misclassifications in more detail to understand model weaknesses.
+
+<!--
 ## 📝 Documentation
 
 ### Notebook Sections
