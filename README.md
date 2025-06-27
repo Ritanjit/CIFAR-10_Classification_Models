@@ -1,7 +1,3 @@
-# 
-Models Used: Custom CNN Classifier,  AlexNet Classifier, Pre-trained ResNet Model, Pre-trained Inception Model, Custom Network Architecture
-
-
 # CIFAR-10 Classification Benchmark Study
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mqJNx2Hq5ZPrrwBeJxHe7Bu4otjkR4wJ?usp=sharing)
