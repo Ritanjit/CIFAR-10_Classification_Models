@@ -173,6 +173,10 @@ Input → [Preprocessing] → [Feature Extraction] → [Classification] → Outp
 
 ## 📈 Results
 
+<table>
+<tr>
+<td>
+
 #### MODEL PERFORMANCE COMPARISON
 
 | Model                | Accuracy (%) |
@@ -182,6 +186,15 @@ Input → [Preprocessing] → [Feature Extraction] → [Classification] → Outp
 | ResNet               |        61.70 |
 | Inception            |        74.89 |
 | Custom Architecture  |        67.59 |
+
+</td>
+<td>
+
+![Performance Comparison](https://raw.githubusercontent.com/ritanjit/CIFAR-10_Classification_Models/main/Model_Comparision.png) 
+
+</td>
+</tr>
+</table>
 
 
 <!--
